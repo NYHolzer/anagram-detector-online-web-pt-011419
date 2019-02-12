@@ -13,7 +13,6 @@ class Anagram
      if word.split("").sort == @word.split.sort
        matches << word 
      end
-     binding.pry
     end
     matches
   end 
