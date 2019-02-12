@@ -11,9 +11,9 @@ class Anagram
     matches = []
     some_words.each do |word|
      if word.split("").sort == %w(@word).sort
-       binding.pry
        matches << word 
      end
+     binding.pry
     end
     matches
   end 
